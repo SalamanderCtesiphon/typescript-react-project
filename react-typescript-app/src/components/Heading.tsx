@@ -1,6 +1,6 @@
 import { ReactElement } from "react"
 
-type HeadingProps = { title: string}
+type HeadingProps = { title: string }
 
 function Heading({ title }: HeadingProps): ReactElement {
   return (
@@ -8,4 +8,4 @@ function Heading({ title }: HeadingProps): ReactElement {
   )
 }
 
-export default Heading 
+export default Heading   
